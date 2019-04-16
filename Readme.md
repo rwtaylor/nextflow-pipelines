@@ -1,8 +1,6 @@
-# [nextflow](https://nextflow.io) pipelines
+# nextflow pipelines
 
-
-
-Some handy-to-me bioinformatic pipelines. I add pipelines that I may reuse here. These pipelines are ment to be starting points for new analyses.
+Some handy-to-me bioinformatic pipelines. These use the amazing [nextflow DSL](https://nextflow.io), and mostly rely on [singularity](https://www.sylabs.io/docs/) containers for easy deployment locally or on a cluster. I add pipelines that I may reuse here. These pipelines are ment to be starting points for new analyses.
 
 * **alignment** This pipeline uses [LAST](http://last.cbrc.jp) to align reference genomes.
 * **bam-stats** A pipeline to get basic stats from bamfiles. This was developed for a multiplex pcr workflow.
